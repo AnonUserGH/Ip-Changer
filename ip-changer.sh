@@ -9,7 +9,7 @@ CYAN="\e[36m"
 WHITE="\e[37m"
 RESET="\e[0m"
 
-printf "${BLUE}PROXY : 127.0.0.1 PORT 8118${RESET}"
+printf "${BLUE}PROXY : 127.0.0.1 PORT 8118${RESET}\n"
 
 usage() {
     echo -e "${BLUE}Usage: ip-changer [-r SECONDS]${RESET}"
